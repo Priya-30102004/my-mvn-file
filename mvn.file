@@ -15,7 +15,7 @@ jobs:
       actions: read
       checks: write
       issues: write
-      dependency-graph: write   # 🔥 This is required for dependency submission
+      dependency-graph: write   
 
     steps:
       - name: Checkout repository
